@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="sp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arreglo y ciclos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark">
+    <!-- Encabezad -->
+     <header class="text-center my-3 text-danger">
+        <h1>Ejercicios Javascript - Arreglos y Ciclos</h1>
+     </header>
+
+    <!--Información principal-->
+    <main>
+        <section class="container">
+          <!--Ejercicio 1-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                1. Join
+              </h2>
+
+              <p>
+                Completar la función que se muestra en la imagen para que se imprima la cadea "This is a sentence"
+              </p>
+
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio1.png" alt="Ejercicio 1">
+            </div>
+            <!--Resultado ejercicio 1-->
+            <div class="container text-info mt-4">
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado1"></ul>
+            </div>
+          </div>
+
+          <!--Ejercicio 2-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                2. Map
+              </h2>
+
+              <p>
+                Escribe una función que acepte una serie de números y duplique el valor de cada elemento de la matriz. Imprime la nueva matriz actualizada. Ejemplo: Dada una matriz [1, 2, 4, 5]. La salida debe ser [2, 4, 8, 10]
+              </p>
+
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio2.png" alt="Ejercicio 2">
+            </div>
+            <!--Resultado ejercicio 1-->
+            <div class="container text-info mt-4">
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado2">
+                <li id="salida2.1"></li>
+                <li id="salida2.2"></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Ejercicio 3-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                3. Reduce
+              </h2>
+
+              <p>
+                Escribe un programa para calcular la suma y el producto (multiplicación) de una serie de números. Imprime la suma y el producto. Ejemplo: Dada una matriz [1, 2, 3, 4] La suma es 10. El producto es 24.
+              </p>
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio3.png" alt="Ejercicio 3">
+            </div>
+            <!--Resultado ejercicio 3-->
+            <div class="container text-info mt-4">
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado3">
+                <li id="salida3.1"></li>
+                <li id="salida3.2"></li>
+                <li id="salida3.3"></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Ejercicio 4-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                4. Filter e includes
+              </h2>
+
+              <p>
+                Crear un programa que recorra las 2 matrices. Si hay cursos comunes, imprímirlos en la consola.
+                <br>
+                student1Courses = ['Math', 'English', 'Programming']
+                <br>
+                student2Courses = ['Geography', 'Spanish', 'Programming'];
+              </p>
+
+              
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio4.png" alt="Ejercicio 4">
+            </div>
+            <!--Resultado ejercicio 4-->
+            <div class="container text-info mt-4">
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado3">
+                <p id="salida4.1.1"></p>
+                <li id="salida4.1"></li>
+                <br>
+                <p id="salida4.2.1"></p>
+                <li id="salida4.2"></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Ejercicio 5-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                5. Interacción con un array
+              </h2>
+
+              <p>
+                Para cada uno de los ejercicios siguientes, suponga que está comenzando con la siguiente matriz de personas.
+                <br>
+                let gente = ["María", "Dani", "Luis", "Juan", "Camila"]
+                <br>
+                <ul>
+                  <li>
+                    Escriba un comando que imprima todas las personas de la lista.
+                  </li>
+                  <li>
+                    Escriba el comando para eliminar "Dani" de la matriz.
+                  </li>
+                  <li>
+                    Escribe el comando para eliminar "Juan" del array.
+                  </li>
+                  <li>
+                    Escribe el comando para mover a "Luis" al frente de la matriz.
+                  </li>
+                  <li>
+                    Escriba el comando para agregar su nombre al final de la matriz.
+                  </li>
+                  <li>
+                    Usando un bucle, itere a través de esta matriz y después de console.log "Maria", salga del bucle.
+                  </li>
+                  <li>
+                    Escribe el comando que da el indexOf donde se encuentra "Maria".
+                  </li>
+                  <li>
+                    Al final del ejercicio, debería haber 4 personas en la formación.
+                  </li>
+                </ul>
+              </p>
+
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio5.png" alt="Ejercicio 5">
+            </div>
+            <!--Resultado ejercicio 5-->
+            <div class="container text-info mt-4">
+
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado5">
+                <li id="salida5.1"></li>
+                <li id="salida5.2"></li>
+                <li id="salida5.3"></li>
+                <li id="salida5.4"></li>
+                <li id="salida5.5"></li>
+                <li id="salida5.6"></li>
+                <li id="salida5.7"></li>
+                <li id="salida5.8"></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Ejercicio 6-->
+          <div class="row justify-content-center">
+            <!--Descripción del ejercicio-->
+            <div class="col-12 col-md-8 text-light">
+              <h2>
+                6. Algotirmo burbuja
+              </h2>
+
+              <p>
+                Escribe una función que realice el algoritmo de burbuja.
+                <br>
+                Entrada [3, 6, 12, 5, 100, 1]
+                <br>
+                Salida [1, 3, 5, 6, 12, 100]
+              </p>
+
+            </div>
+            <!--Imagen de decoración-->
+            <div class="col-6 col-md-4">
+              <img class="img-fluid rounded-2" src="imagenes/ejercicio6.png" alt="Ejercicio 6">
+            </div>
+            <!--Resultado ejercicio 6-->
+            <div class="container text-info mt-4">
+              <p>
+                --Resultado--
+              </p>
+
+              <ul id="resultado6">
+                <li id="salida6.1"></li>
+                <li id="salida6.2"></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+    </main>
+
+  <!--Pie de página-->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="join.js"></script>
+    <script src="map.js"></script>
+    <script src="reduce.js"></script>
+    <script src="filterIncludes.js"></script>
+    <script src="interaccionArray.js"></script> 
+    <script src="algoritmoBurbuja.js"></script>
+  </body>
+</html>
